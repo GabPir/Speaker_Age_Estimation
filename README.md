@@ -22,7 +22,7 @@ To accurately predict a speaker’s age, it was essential to first address data 
 
 <br>
 
-### FUTURE EXTRACTION and SELECTION, 
+### FEUTURE EXTRACTION and SELECTION, 
 In order to extract new features from the sample audios, the signals were trimmed and denoised.
 
 <br>
