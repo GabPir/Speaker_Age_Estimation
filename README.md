@@ -31,7 +31,7 @@ In order to extract new features from the sample audios, the signals were trimme
 <br>
 
 
-To improve the predictive power of the regression pipeline, several new features were engineered from the audio samples. Feature scaling was applied to normalize duration-dependent attributes. A correlation analysis identified highly correlated features and in later stage models were tested with and without these features to assess their impact on performance. Principal Component Analysis (PCA) was used to reduce the feature space of specific groups of attributes while maintaining 90% of the variance.
+To improve the predictive power of the regression pipeline, several new features were engineered from the audio samples. Feature scaling was applied to normalize duration-dependent attributes. A correlation analysis identified highly correlated features and in later stage models were tested with and without these features to assess their impact on performance. Principal Component Analysis (PCA) was used to reduce the feature space of specific groups of attributes while preserving 90% of the explained variance.
 
 <br>
 
