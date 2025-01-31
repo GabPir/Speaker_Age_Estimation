@@ -1,5 +1,7 @@
-
 # Data-Driven Approach for Speaker Age Estimation from Spoken Sentences
+
+## Project for "Data Science Lab: process and methods" (Course 2024/2025)
+
 
 Estimating speaker age from voice is a challenging task in speech processing. The code consider a data-driven approach for age estimation using a regression pipeline on a dataset that incorporates pre-provided features along with available audio recordings. Preprocessing steps, including noise reduction, feature extraction and selection, and outlier detection with DBSCAN, were applied to enhance performance. Several regression models—such as Ridge, Lasso, SVR, and Random Forest—were evaluated. Random Forest regression yielded the best results, which, however, highlighted that further efforts in feature engineering, selection, and model refinement could be necessary.  
 
@@ -49,7 +51,7 @@ To enhance model performance, the DBSCAN clustering algorithm was applied to det
 
 At this stage various regression models were compared and tuned, including Ridge, Lasso, Support Vector Machine, and Random Forest regression.To evaluate model performance, the Root Mean Square Error (RMSE) formula was used. Cross-validation was the most effective method for hyperparameter tuning on the development set.
 
-
+<br>
 
 ### RESULTS
 
