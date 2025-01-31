@@ -5,7 +5,7 @@ Estimating speaker age from voice is a challenging task in speech processing. Th
 
 <br><br>
 
-### Problem description
+### PROBLEM DESCRIPTION
 
 The data set consisted of 3,624 samples (not available in the repository): 2,933 samples for the development set and 691 samples for the evaluation set. Each sample corresponded to an individual speaking a sentence. In the development set, the individual’s age was provided as the target label. In contrast, in the evaluation set, the age was unknown and had to be determined. Some features were already provided and audio recordings were also available to potentially extract new features. <br>
 The graph representing the age (the target variable) distribution for the male and female genders revealed a significant imbalance in the occurrence of older and very young individuals compared to the central age range, which made the problem more challenging. 
@@ -16,13 +16,13 @@ The graph representing the age (the target variable) distribution for the male a
 
 <br>
 
-### Preprocessing
+### PREPROCESSING
 To accurately predict a speaker’s age, it was essential to first address data quality issues such as noise, outliers, missing values, duplicates, and incorrect data. Thus, preprocessing played an essential role. Moreover, the ethnicity attribute showed high variability and imbalance, with some groups appearing only in the development or only in the evaluation datasets. To prevent sparsity from one-hot encoding, ethnicities were grouped into broader macro-categories: Western, Sub-Saharan, Asian, and Others.
 
 
 <br>
 
-### FEUTURE EXTRACTION and SELECTION, 
+### FEATURES EXTRACTION and SELECTION, 
 In order to extract new features from the sample audios, the signals were trimmed and denoised.
 
 <br>
@@ -45,13 +45,13 @@ To enhance model performance, the DBSCAN clustering algorithm was applied to det
 
 <br>
 
-### Model selection
+### MODEL SELECTION
 
 At this stage various regression models were compared and tuned, including Ridge, Lasso, Support Vector Machine, and Random Forest regression.To evaluate model performance, the Root Mean Square Error (RMSE) formula was used. Cross-validation was the most effective method for hyperparameter tuning on the development set.
 
 
 
-### Results
+### RESULTS
 
 To assess the performance of the data science pipeline, the models were fitted using the entire development dataset and then evaluated on the evaluation dataset.
 <br>
